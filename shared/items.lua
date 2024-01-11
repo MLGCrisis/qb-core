@@ -506,7 +506,7 @@ QBShared.Items = {
     --Drink Items
     water                      = { name = 'water', label = 'Bottle of Still Water', weight = 5, type = 'item', image = 'water.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'For all the thirsty people out there'},
     waterspark                      = { name = 'waterspark', label = 'Bottle of Sparkling Water', weight = 5, type = 'item', image = 'waterspark.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'For all the thirsty people out there'},
-    coffee                      = { name = 'coffee', label = 'Coffee', weight = 5, type = 'item', image = 'coffee.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Pump 4 Caffiene'},
+    --coffee                      = { name = 'coffee', label = 'Coffee', weight = 5, type = 'item', image = 'coffee.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Pump 4 Caffiene'},
     cupcoffee                      = { name = 'cupcoffee', label = 'Cup of Coffee', weight = 5, type = 'item', image = 'cupcoffee.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Pump 4 Caffiene'},
     tea                      = { name = 'tea', label = 'Tea', weight = 5, type = 'item', image = 'tea.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Pump 4 Caffiene'},
     cuptea                      = { name = 'cuptea', label = 'Cup of Tea', weight = 5, type = 'item', image = 'cuptea.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Pump 4 Caffiene'},
@@ -514,7 +514,6 @@ QBShared.Items = {
     cuphotchoc                      = { name = 'cuphotchoc', label = 'Cup of Hot Chocolate', weight = 5, type = 'item', image = 'cuphotchoc.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
     energydrink                      = { name = 'energydrink', label = 'Energy Drink', weight = 5, type = 'item', image = 'energydrink.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
     cola                      = { name = 'cola', label = 'Coca Cola', weight = 5, type = 'item', image = 'cola.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
-    --7up                      = { name = '7up', label = '7up', weight = 5, type = 'item', image = '7up.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
     colazero                      = { name = 'colazero', label = 'Coca Cola Zero', weight = 5, type = 'item', image = 'colazero.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
     drpepper                      = { name = 'drpepper', label = 'Dr Pepper', weight = 5, type = 'item', image = 'drpepper.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
     fanta                      = { name = 'fanta', label = 'Fanta', weight = 5, type = 'item', image = 'fanta.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
@@ -530,7 +529,7 @@ QBShared.Items = {
     cranberryjuice                      = { name = 'cranberryjuice', label = 'Cranberry Juice', weight = 5, type = 'item', image = 'cranberryjuice.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
     strawberryjuice                      = { name = 'strawberryjuice', label = 'Strawberry Juice', weight = 5, type = 'item', image = 'strawberryjuice.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
     triplesec                      = { name = 'triplesec', label = 'Triple Sec', weight = 5, type = 'item', image = 'triplesec.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
-    --milk                      = { name = 'milk', label = 'Milk', weight = 5, type = 'item', image = 'triplesec.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
+    milk                      = { name = 'milk', label = 'Milk', weight = 5, type = 'item', image = 'triplesec.png', unique = false, useaable = true, shouldClose = true, combinable = nil, description = 'Needs'},
 
 }
 
