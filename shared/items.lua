@@ -378,7 +378,7 @@ QBShared.Items = {
     certificate                  = { name = 'certificate', label = 'Certificate', weight = 0, type = 'item', image = 'certificate.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'Certificate that proves you own certain stuff' },
     markedbills                  = { name = 'markedbills', label = 'Marked Money', weight = 1000, type = 'item', image = 'markedbills.png', unique = true, useable = false, shouldClose = true, combinable = nil, description = 'Money?' },
     labkey                       = { name = 'labkey', label = 'Key', weight = 500, type = 'item', image = 'labkey.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Key for a lock...?' },
-    printerdocument              = { name = 'printerdocument', label = 'Document', weight = 500, type = 'item', image = 'printerdocument.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A nice document' },
+    --printerdocument              = { name = 'printerdocument', label = 'Document', weight = 500, type = 'item', image = 'printerdocument.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A nice document' },
     newscam                      = { name = 'newscam', label = 'News Camera', weight = 100, type = 'item', image = 'newscam.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A camera for the news' },
     newsmic                      = { name = 'newsmic', label = 'News Microphone', weight = 100, type = 'item', image = 'newsmic.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A microphone for the news' },
     newsbmic                     = { name = 'newsbmic', label = 'Boom Microphone', weight = 100, type = 'item', image = 'newsbmic.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A Useable BoomMic' },
@@ -822,4 +822,12 @@ QBShared.Items = {
     tribike                     = {name = "tribike", label = "Yellow TriBike", weight = 500, type = "item", image = "tribike.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "A yellow Tribike"},
     tribike2                    = {name = "tribike2", label = "Red TriBike", weight = 500, type = "item", image = "tribike2.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "A red Tribike"},
     tribike3                    = {name = "tribike3", label = "Blue TriBike", weight = 500, type = "item", image = "tribike3.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "A blue Tribike"},
+
+    -- wp printer
+    printerdocument             = {name = "printerdocument", label = "Document", weight = 500, type = "item", image = "printerdocument.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "A nice document"},
+    printer                     = {name = "printer", label = "Printer", weight = 5000, type = "item", image = "printer1.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
+    printer2                    = {name = "printer2", label = "Printer", weight = 5000, type = "item", image = "printer2.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
+    printer3                    = {name = "printer3", label = "Printer", weight = 5000, type = "item", image = "printer3.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
+    printer4                    = {name = "printer4", label = "Printer", weight = 5000, type = "item", image = "printer4.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
+    photocopier                 = {name = "printer5", label = "Photocopier", weight = 5000, type = "item", image = "photocopier.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Make a lot of copies"},
 }
