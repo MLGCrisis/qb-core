@@ -976,4 +976,7 @@ QBShared.Items = {
     toolchest                   = { name = "toolchest", label = "Tool Chest", weight = 1000, type = "item", image = "toolchest.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A sturdy toolchest"},
     carjack                     = { name = "carjack", label = "Car jack", weight = 1000, type = "item", image = "carjack.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A car jack"},
 
+    -- medical props
+    stretcher1                  = { name = "strykergurney", label = "Car jack", weight = 1000, type = "item", image = "strykergurney.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A car jack"},
+
 }
