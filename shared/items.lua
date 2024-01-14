@@ -781,6 +781,9 @@ QBShared.Items = {
     bottle 						= {name = 'bottle', label = 'Empty Bottle', weight = 10, type = 'item', image = 'bottle.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'A glass bottle'},
     can 						= {name = 'can', label = 'Empty Can', weight = 10, type = 'item', image = 'can.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'An empty can, good for recycling'},
 
+    -- jim recycling
+    recyclablematerial          = {name = 'recyclablematerial',   label = 'Recycle Box',      weight = 100, type = 'item', 		image = 'recyclablematerial.png',   unique = false, 	useable = false, 	shouldClose = false, combinable = nil,   description = 'A box of Recyclable Materials'},
+
     -- ps drugprocessing
     wet_weed 		 	 	 	= {name = 'wet_weed', label = 'Moist Weed', weight = 3000, type = 'item', image = 'wet_weed.png', unique = false, useable = false, shouldClose = false, combinable = nil, expire = 90, description = 'Wet weed that needs to be treated!'},
     coke 		 	 	 	    = {name = 'coke', label = 'Cocaine', weight = 1000, type = 'item', image = 'coke.png', unique = false, 	useable = false, shouldClose = false, combinable = nil, expire = 90, description = 'Processed cocaine'},
