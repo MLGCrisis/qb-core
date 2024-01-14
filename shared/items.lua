@@ -809,5 +809,8 @@ QBShared.Items = {
     coke_small_brick 		 	= {name = 'coke_small_brick', label = 'Coke Package', weight = 350, type = 'item', image = 'coke_small_brick.png', unique = false,useable = false, shouldClose = true, combinable = nil, description = 'Small package of cocaine, mostly used for deals and takes a lot of space'},
 
     --jim notepad
-    notepad 		 	        = {name = 'notepad', label = 'Notepad', weight = 5, type = 'item', image = 'notepad.png', unique = false,useable = false, shouldClose = true, combinable = nil, description = 'Notepad for leaving notes'},
+    notepad 		 	        = {name = 'notepad', label = 'Notepad', weight = 5, type = 'item', image = 'notepad.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'Notepad for leaving notes'},
+
+    --electric skateboard
+    skateboard 		 	        = {name = 'skateboard', label = 'Skateboard', weight = 5, type = 'item', image = 'skateboard.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Skating Time!'},
 }
