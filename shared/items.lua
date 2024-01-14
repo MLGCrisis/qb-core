@@ -806,5 +806,8 @@ QBShared.Items = {
     cocainekey 					= {name = 'cocainekey', label = 'Key B', weight = 200, type = 'item', image = 'keyb.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Random Key, with a "Razorblade" Engraved on the Back...'},
     weedkey 					= {name = 'weedkey', label = 'Key C', weight = 200, type = 'item', image = 'keyc.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Random Key, with a "Seed" Engraved on the Back...'},
     finescale 					= {name = 'finescale', label = 'Fine Scale', weight = 200, type = 'item', image = 'finescale.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Scale Used for Fine Powders and Materials.'},
-    coke_small_brick 		 	= {name = 'coke_small_brick', label = 'Coke Package', weight = 350, type = 'item', image = 'coke_small_brick.png', unique = false, 	useable = false, shouldClose = true, combinable = nil, description = 'Small package of cocaine, mostly used for deals and takes a lot of space'},
+    coke_small_brick 		 	= {name = 'coke_small_brick', label = 'Coke Package', weight = 350, type = 'item', image = 'coke_small_brick.png', unique = false,useable = false, shouldClose = true, combinable = nil, description = 'Small package of cocaine, mostly used for deals and takes a lot of space'},
+
+    --jim notepad
+    notepad 		 	        = {name = 'notepad', label = 'Notepad', weight = 5, type = 'item', image = 'notepad.png', unique = false,useable = false, shouldClose = true, combinable = nil, description = 'Notepad for leaving notes'},
 }
