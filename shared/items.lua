@@ -835,8 +835,8 @@ QBShared.Items = {
     photocopier                 = {name = 'printer5', label = 'Photocopier', weight = 5000, type = 'item', image = 'photocopier.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Make a lot of copies'},
 
     -- wp placeables Construction
-    roadworkbarrier             = { name = 'roadworkbarrier', label = 'Road Work Ahead Barrier', weight = 1000, type = 'item', image = 'roadworkahead.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A construction 'Road Work Ahead' barrier'},
-    roadclosedbarrier           = { name = 'roadclosedbarrier', label = 'Road Closed Barrier', weight = 1000, type = 'item', image = 'roadclosedbarrier.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A construction 'Road Closed' barrier'},
+    roadworkbarrier             = { name = 'roadworkbarrier', label = 'Road Work Ahead Barrier', weight = 1000, type = 'item', image = 'roadworkahead.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A construction Road Work Ahead barrier'},
+    roadclosedbarrier           = { name = 'roadclosedbarrier', label = 'Road Closed Barrier', weight = 1000, type = 'item', image = 'roadclosedbarrier.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A construction Road Closed barrier'},
     constructionbarrier         = { name = 'constructionbarrier', label = 'Fold-out Barrier', weight = 500, type = 'item', image = 'constructionbarrier.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A small construction barrier'},
     constructionbarrier2        = { name = 'constructionbarrier2', label = 'Construction Barrier', weight = 1000, type = 'item', image = 'constructionbarrier2.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A medium-sized construction barrier'},
     constructionbarrier3        = { name = 'constructionbarrier3', label = 'Construction Barrier', weight = 1000, type = 'item', image = 'constructionbarrier3.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A medium-sized construction barrier'},
@@ -978,6 +978,8 @@ QBShared.Items = {
     lawnmower                   = { name = 'lawnmower', label = 'Lawnmower', weight = 1000, type = 'item', image = 'lawnmower.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Cuts grass'},
     toolchest                   = { name = 'toolchest', label = 'Tool Chest', weight = 1000, type = 'item', image = 'toolchest.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A sturdy toolchest'},
     carjack                     = { name = 'carjack', label = 'Car jack', weight = 1000, type = 'item', image = 'carjack.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    prop_wheelchair_01          = { name = 'prop_wheelchair_01', label = 'Wheel Chair 1', weight = 1000, type = 'item', image = 'prop_wheelchair_01.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    prop_wheelchair_01_s        = { name = 'prop_wheelchair_01_s', label = 'Wheelchair 2', weight = 1000, type = 'item', image = 'prop_wheelchair_01_s.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
 
     -- yoga mats
     yogamat_blue                = {name = 'yogamat_blue', label = 'Yoga mat (Blue)', weight = 500, type = 'item', image = 'yogamat_blue.png', unique = false, useable = true, shouldClose = true,combinable = nil, description = 'Yoga is a great way to reduce stress'},
@@ -985,6 +987,15 @@ QBShared.Items = {
     yogamat_red                 = {name = 'yogamat_red', label = 'Yoga mat (Red)', weight = 500, type = 'item', image = 'yogamat_red.png', unique = false, useable = true, shouldClose = true,combinable = nil, description = 'Yoga is a great way to reduce stress'},
 
     -- medical props
-    stretcher1                  = { name = 'strykergurney', label = 'Car jack', weight = 1000, type = 'item', image = 'strykergurney.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    strykergurney                  = { name = 'strykergurney', label = 'Stretcher 1', weight = 1000, type = 'item', image = 'strykergurney.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    combicarrier2                  = { name = 'combicarrier2', label = 'Stretcher 2', weight = 1000, type = 'item', image = 'combicarrier2.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    fernocot                       = { name = 'fernocot', label = 'Stretcher 3', weight = 1000, type = 'item', image = 'fernocot.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    lifepak15                  = { name = 'lifepak15', label = 'Stretcher 4', weight = 1000, type = 'item', image = 'lifepak15.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    loweredfernocot                  = { name = 'loweredfernocot', label = 'Stretcher 5', weight = 1000, type = 'item', image = 'loweredfernocot.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    loweredstrykergurney                  = { name = 'loweredstrykergurney', label = 'Stretcher 6', weight = 1000, type = 'item', image = 'loweredstrykergurney.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    lucas2                  = { name = 'lucas2', label = 'Stretcher 7', weight = 1000, type = 'item', image = 'lowlucas2eredfernocot.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    lucas3                  = { name = 'lucas3', label = 'Stretcher 8', weight = 1000, type = 'item', image = 'lucas3.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    sittingfernocot                  = { name = 'sittingfernocot', label = 'Stretcher 9', weight = 1000, type = 'item', image = 'sittingfernocot.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    sittingstrykergurney                  = { name = 'sittingstrykergurney', label = 'Stretcher 10', weight = 1000, type = 'item', image = 'sittingstrykergurney.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
 
 }
