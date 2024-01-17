@@ -997,5 +997,8 @@ QBShared.Items = {
     lucas3                  = { name = 'lucas3', label = 'Stretcher 8', weight = 1000, type = 'item', image = 'lucas3.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
     sittingfernocot                  = { name = 'sittingfernocot', label = 'Stretcher 9', weight = 1000, type = 'item', image = 'sittingfernocot.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
     sittingstrykergurney                  = { name = 'sittingstrykergurney', label = 'Stretcher 10', weight = 1000, type = 'item', image = 'sittingstrykergurney.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
+    
+    -- xradio
+    boombox                  = { name = 'boombox', label = 'Boombox', weight = 1000, type = 'item', image = 'boombox.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A car jack'},
 
 }
