@@ -723,8 +723,8 @@ QBShared.Items = {
 	spray_remover             	= {name = 'spray_remover', label = 'Paint Remover', weight = 10, type = 'item', image = 'spray_remover.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Spray paint remover.'},
 
     -- keep backpacks
-	backpack1 				    = {name = 'backpack1', label = 'Backpack 1', weight = 200, type = 'item', image = 'backpack_girl.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Backpack'},
-    backpack2 				    = {name = 'backpack2', label = 'Backpack 2', weight = 200, type = 'item', image = 'backpack_boy.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Backpack'},
+	backpack1 				    = {name = 'backpack1', label = 'Backpack 1', weight = 200, type = 'item', image = 'backpack_boy.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Backpack'},
+    backpack2 				    = {name = 'backpack2', label = 'Backpack 2', weight = 200, type = 'item', image = 'backpack_girl.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Backpack'},
     briefcase 				    = {name = 'briefcase', label = 'Briefcase', weight = 150, type = 'item', image = 'briefcase.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Briefcase'},
     paramedicbag 				= {name = 'paramedicbag', label = 'Paramedic bag', weight = 250, type = 'item', image = 'paramedic_bag.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Paramedic bag'},
     briefcaselockpicker 		= {name = 'briefcaselockpicker', label = 'Briefcase Lockpicker', weight = 10, type = 'item', image = 'lockpick.png', unique = false, useable = true, shouldClose = true, combinable = nil,	description = 'Briefcase Lockpicker'},
