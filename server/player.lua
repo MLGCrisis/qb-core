@@ -88,7 +88,7 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
         Offline = false
     end
 
-    PlayerData.metadata["communityservice"] = PlayerData.metadata["communityservice"] ~= nil and PlayerData.metadata["communityservice"] or 0 --added by pamela for qb-community-service
+    --PlayerData.metadata["communityservice"] = PlayerData.metadata["communityservice"] ~= nil and PlayerData.metadata["communityservice"] or 0 --added by pamela for qb-community-service
 
     PlayerData.citizenid = PlayerData.citizenid or QBCore.Player.CreateCitizenId()
     PlayerData.cid = PlayerData.cid or 1
